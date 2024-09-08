@@ -1,3 +1,7 @@
+document.addEventListener("DOMContentLoaded", () =>{
+
+
+
 function addTask(){
     const taskIds = ["daily", "weekly", "monthly", "miscellaneous"]
 
@@ -35,4 +39,4 @@ function enterKeySubmit(){
     }
 }
 
-window.onload = enterKeySubmit
+window.onload = enterKeySubmit})
